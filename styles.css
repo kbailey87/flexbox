@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+
+/*-- Phone screen --*/
+
+@media (min-width: 600px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
